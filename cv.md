@@ -75,4 +75,10 @@ function peak(arr) {
 
  <br/>
  <hr/>
- 
+
+ ### **Languages:**
+
+ - English C2
+ - Russian 
+
+
