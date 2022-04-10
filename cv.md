@@ -34,8 +34,13 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 <br/>
 <hr/>
 
+### **Skills and Proficiency:**
 
+- HTML5, CSS3
+- JavaScript Basics
+- Git, GitHub
+- VS Code
 
-
-
+<br/>
+<hr/>
 
