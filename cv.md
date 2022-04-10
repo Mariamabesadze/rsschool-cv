@@ -63,7 +63,16 @@ function peak(arr) {
 
 <br/>
 <hr/>
+<br/>
 
+### **Courses:**
 
+- HTML and CSS Tutorials 
 
+ ![skills image](/assets/skills.png)
 
+ - BitCamp Georgia
+
+ <br/>
+ <hr/>
+ 
