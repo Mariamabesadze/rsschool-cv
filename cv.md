@@ -44,3 +44,26 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 <br/>
 <hr/>
 
+### **Code Example:**
+
+
+```
+function peak(arr) {
+
+  for (let i = 1; i < arr.length - 1; i++) {
+    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+    if (leftSum === rightSum) {
+      return i;
+    }
+  }
+  return -1;
+}
+```
+
+<br/>
+<hr/>
+
+
+
+
