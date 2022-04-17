@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>/Rsschool-cv-html</title>
+</head>
+<body>
+    <div class="container-centered">
+        <div class="two-columns">
+            <div class="left-column">
+                <header>
+                    
+<img src="../assets/Rsschool-cv-html/profile.jpg" alt="Portrait">
+                    <h1>Mariam Abesadze</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </header>
+
+                <main>
+                    <section class="contacts">
+                        <h3>CONTACTS</h3>
+                        <ul>
+                            <li>
+                                <img src="../assets/Rsschool-cv-html/phone.svg" alt="phone icon" width="30" height="30">
+                                <p>+995571056912</p>
+                            </li>
+                            <li>
+                                <img src="../assets/Rsschool-cv-html/email.svg" alt="email icon" width="30" height="30">
+                                <p>mariam.abesadze029@ens.tsu.edu.ge</p>
+                            </li>
+                        </ul>
+                       
+                    </section>
+
+                    <section class="skills">
+                        <h3>SKILLS</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Git,GitHub</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </section>
+
+                    <section class="languages">
+                        <h3>LANGUAGES</h3>
+                        <ul>
+                            <li>English</li>
+                            <li>Russian</li>
+                            <li>Georgian</li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+
+            <aside class="right-column">
+                <section class="about-myself">
+                    <div class="sub-header">
+                        <img src="../assets/Rsschool-cv-html/myself.svg" alt="about myself icon" width="30" height="30">
+                        <h3>About Myself</h3>
+                    </div>
+                    <p>Having started my career as a layout designer in a local newspaper with minimum skills, I became profficient in printing design. My keen interest in printing technologies led me to working as a Prepress and DTP Engineer in the largest printing house in my city, where I continued self-learning, examining the process of creating wine and food labels, magazines and other printed goods.</p>
+                    <p>Three years ago I’ve become passionate about retouching. I’ve mastered different retouching techniques, learned to work with graphic tablet, become an advanced Photoshop user and found my first job as a retoucher. </p>
+                    <p>Remote work as a retoucher gives me extra free time, which I spend learning Frontend Development. I’m interested in Web Development because this occupation provides endless possibilities for professional growth, besides there’s a huge amount of free high quality resources for self-education and a large community of developers.</p>
+                    <p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.</p>
+                </section>
+
+                <section class="education">
+                    <div class="sub-header">
+                        <img src="../assets/Rsschool-cv-html/education.svg" alt="education icon" width="30" height="30">
+                        <h3>EDUCATION</h3>
+                    </div>
+                    <p><strong>Tbilisi State University</strong></p>
+                    <p>Chemistry Faculty</p>
+                    <p>Years: 2019-2022</p>
+                </section>
+
+                <section class="courses">
+                    <div class="sub-header">
+                        <img src="../assets/Rsschool-cv-html/courses.svg" alt="courses icon" width="30" height="30">
+                        <h3>COURSES</h3>
+                    </div>
+                    <ul>
+                        <li>BitCamp Georgia</li>
+                        <li>The Rolling Scope School</li>
+                        <li>HTML and CSS tutorial</li>
+                    </ul>
+                </section>  
+                
+                <section class="code-example">
+                    <div class="sub-header">
+                        <img src="../assets/Rsschool-cv-html/code.svg" alt="code icon" width="30" height="30">
+                        <h3>CODE EXAMPLE</h3>
+                    </div>
+                    <p><strong>Peak arrays index KATA from CODEWARS:</strong>Given an array of ints, return the index such that
+                        the sum of the elements to the right of that index equals the sum of the elements to the
+                        left of that index. If there is no such index, return -1. If there is more than one such index, return the
+                        left-most index.</p>
+                        <pre><code>function peak(arr) {
+
+                            for (let i = 1; i < arr.length - 1; i++) {
+                              let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+                              let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+                          
+                              if (leftSum === rightSum) return i;
+                            }
+                            return -1;
+                          }</code></pre>
+                </section>
+             </aside>
+             <footer>
+                 <a class="my-github" href="https://Mariamabesadze.github.io/rsschool-cv/">
+                     <img class="github-icon" src="../assets/Rsschool-cv-html/github.svg" alt="github icon" width="25" height="25">
+                     <p>Visit my Github</p>
+                 </a>
+                 <p>2021</p>
+                 <a href="https://rs.school/js/">
+                     <img src="../assets/Rsschool-cv-html/rsschool.svg" alt="rsschool icon" width="72" height="25">
+                 </a>
+             </footer>
+        </div>
+    </div>
+</body>
+</html>
